@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolGood.Coordinate", "ToolGood.Coordinate\ToolGood.Coordinate.csproj", "{842E803D-9099-4532-A2A5-0F7862F17604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolGood.Coordinate.Test", "ToolGood.Coordinate.Test\ToolGood.Coordinate.Test.csproj", "{D7125BE0-F576-4E95-B7D5-3C4A4D94193D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842E803D-9099-4532-A2A5-0F7862F17604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842E803D-9099-4532-A2A5-0F7862F17604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842E803D-9099-4532-A2A5-0F7862F17604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842E803D-9099-4532-A2A5-0F7862F17604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7125BE0-F576-4E95-B7D5-3C4A4D94193D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7125BE0-F576-4E95-B7D5-3C4A4D94193D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7125BE0-F576-4E95-B7D5-3C4A4D94193D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7125BE0-F576-4E95-B7D5-3C4A4D94193D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
