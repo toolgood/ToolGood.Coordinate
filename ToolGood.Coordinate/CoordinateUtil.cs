@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ToolGood.Coordinate.Coordinates;
 
 namespace ToolGood.Coordinate
 {
@@ -216,8 +217,24 @@ namespace ToolGood.Coordinate
         }
 
 
+        public static void Bd09_To_Point(double lat,double lng,out double x,out double y)
+        {
+            var point = Bd09_To_Gps84(lat, lng);
+            Gps84_To_Point(point.getWgLat(), point.getWgLon(), out x, out y);
+        }
 
+        public static void Gcj02_To_Point(double lat, double lng, out double x, out double y)
+        {
+            var point = Gcj02_To_Gps84(lat, lng);
+            Gps84_To_Point(point.getWgLat(), point.getWgLon(), out x, out y);
+        }
 
+        public static void Gps84_To_Point(double lat, double lng, out double x, out double y)
+        {
+            ICoordinate ic = CoordinateFactory.CreateCoordinate(Spheroid.WGS84);
+            ic.Longitude0 = Convert.ToInt32(lng);
+            ic.GaussPrjCalculate(lng, lat, out x, out y);
+        }
 
     }
 }
