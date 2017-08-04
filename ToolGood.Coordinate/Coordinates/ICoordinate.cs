@@ -7,6 +7,7 @@ namespace ToolGood.Coordinate.Coordinates
 {
     public interface ICoordinate
     {
+        int Longitude0 { get; set; }
 
         /// <summary>
         /// 十进制双精度角度转换成度分秒角度格式

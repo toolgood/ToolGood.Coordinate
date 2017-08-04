@@ -52,7 +52,6 @@
     <Compile Include="Coordinates\Xian80.cs" />
     <Compile Include="CoordinateUtil.cs" />
     <Compile Include="Coordinates\GaussPrjBase.cs" />
-    <Compile Include="Position.cs" />
     <Compile Include="Coordinates\ICoordinate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Coordinates\Spheroid.cs" />

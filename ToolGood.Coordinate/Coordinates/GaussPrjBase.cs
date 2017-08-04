@@ -23,6 +23,11 @@ namespace ToolGood.Coordinate.Coordinates
         private int _longitude0 = 0;
         protected readonly double PI = 3.14159265353846;
 
+        public int Longitude0
+        {
+            get { return _longitude0; }
+            set { _longitude0 = value; }
+        }
 
         public void DD2DMS(double DecimalDegree, out int Degree, out int Minute, out double Second)
         {
